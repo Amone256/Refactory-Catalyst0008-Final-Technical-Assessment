@@ -2,8 +2,8 @@
 const express= require("express")
 //It allows us to use the Express Router Functionality.
 const router=express.Router()
-const Patient=require('..Patient')
-//const Patient=require('/../../../Tugume-Timothy-Mugabi/models/Patient')
+//const Patient=require('..Patient')
+const Patient=require('../models/Patient')
 //Renders the Register worker Page
 router.get("/",(req,res)=>{
     res.render('main')
